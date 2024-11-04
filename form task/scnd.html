@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #97c9f2;
+            font-family: Arial,sans-serif ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+        .main{
+            height: 600px;
+            width: 800px;
+            display: flex;
+            box-shadow: 0 4px 8px;
+            border-radius: 10px;
+
+        }
+        .main-lpart{
+            flex: 1;
+            background-color: white;
+            color: rgb(81, 140, 230);
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        h2{
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        .rpart{
+            margin-bottom: 15px;
+        }
+        .lpart input,
+        .lpart select{
+            width:95px ;
+            padding: 10px;
+            margin-top: 5px;
+            border: none;
+            border-bottom: 1px solid gray;
+        }
+        .main-rpart{
+            flex: 1;
+            background-color: rgb(79, 33, 230);
+            color:white;
+            padding: 45px;
+            flex-direction: column;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .rpart input,
+        .rpart select{
+            width: 100px;
+            padding: 11px;
+            margin-top: 9px;
+            border: none;
+            border-color: rgb(30, 30, 139);
+            background-color: transparent;
+            color: white;
+            border-bottom: 1px solid gray;
+
+            
+        }
+        .rpart input::placeholder{
+            color: white;
+        }
+        .check1{
+            padding: 13px;
+            background-color: rgb(79, 33, 230);
+            margin-top: 23px;
+        }
+        .button{
+            margin-top: 19px;
+            padding: 11px 19px;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 35px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            margin-right: 48%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="main-lpart">
+            <h2>General Information</h2>
+            <form action="second.html">
+                <div class="lpart" style="width: 100%;">
+                    <select name="title" id="Title" style="width: 100%;"  style="color: solid gray;">
+                        <option value="Title"selected disabled>Title</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Ms">Ms</option>
+                        <option value="Mrs">Mrs</option>
+                    </select>
+                </div class="lpart">
+                <div class="lpart" style="width: 100%;">
+                    <input type="text" id="first Name" placeholder="First Name" style="width: 43%;">
+                    <input type="text" id="Second Name" placeholder="Second Name" style="width: 43%;;">
+                </div>
+                <div class="lpart" style="width: 100%;">
+                    <select name="position" id="Position" style="width: 100%;">
+                        <option value="Position" selected disabled>Position</option>
+                        <option value="human resource">hr</option>
+                        <option value="Python Developer"> Developer</option>
+                        <option value="correction">compiler</option>
+                    </select>
+                </div>
+                <div class="lpart" style="width: 100%;">
+                    <input type="text" id="Company" placeholder="Company" style="width: 95%;">
+                </div>
+                <div class="lpart">
+                    <input type="text" id="Business Arena" placeholder="Business Arena" style="width: 54.8%;">
+                    <select name="Employees" id="Employees" style="width: 37.5%;">
+                        <option value="Employees" selected disabled>Employees</option>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">05</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="main-rpart">
+            <h2>Contact Details</h2>
+            <form action="second.html">
+                <div class="rpart" style="width: 100%;">
+                    <input type="text" id="Street +Nr" placeholder="Street +Nr" style="width: 90%;">
+                </div >
+                <div class="rpart">
+                    <input type="text" id="Informations" placeholder="Additional Informations" style="width: 90%;">
+                </div>
+                <div class="rpart">
+                    <input type="text" id="Code" placeholder="ZipCode" style="width: 30%;">
+                    <select name="Place" id="Place" style="width: 60%;" >
+                        <option value="place" selected disabled>place</option>
+                        <option value="Kannur">Kerala</option>
+                        <option value="Kozhikode">Karnataka</option>
+                        <option value="Wayanad">tamilnadu</option>
+                    </select>
+                </div>
+                <div class="rpart">
+                    <select name="Country" id="Country" style="width: 98%;">
+                        <option value="Country" selected disabled>Country</option>
+                        <option value="india">india +91</option>
+                        <option value="russi">russia +92</option>
+                    </select>
+                </div>
+                <div class="rpart">
+                    <select name="Code" id="Code" ;>
+                        <option value="code"selected disabled>Code</option>
+                        <option value="+91">+91</option>
+                        <option value="+92">+92</option>
+                        <input type="text" id="Phone" placeholder="Phone" style="width: 61%;">
+                    </select>
+                </div>
+                <div class="rpart">
+                    <input type="email" id="mail" placeholder="Email" style="width: 90%;">
+                </div>
+                <div class="check1">
+                    <input type="checkbox" id="Check" >
+                    <label for="readme" style="font-size: 12px;">I do Accept the terms and conditions</label>
+                </div>
+                <div class="button">
+                    <button style="border: none; background-color: white;">Register Badge</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

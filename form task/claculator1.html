@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .Calculator{
+            width: 250px;
+            background-color: #40667a;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 4px 11px rgba(0, 0, 0, 0.3);
+
+
+        }
+        .display{
+            width: 91%;
+            height: 50px;
+            background-color: #15392f;
+            color: #fff;
+            
+            display: flex;
+            align-items: center; 
+            font-size: 23px;
+            text-align: right;
+            padding: 12px;
+            border-radius: 5px;
+            margin-bottom: 10px; 
+        }
+        .buttons{
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .button{
+            width: 55px;
+            height: 45px;
+            text-align: center;
+            font-size: 30px;
+            background-color: black;
+            color: white;
+            border-radius: 3px;
+            
+        }
+        
+        
+        .buttonclear{
+            background-color: red;
+        }
+        .buttonbackspace{
+            background-color: red;
+        }
+        .buttonplus{
+            height: 50px;
+        }
+        .buttonequal{
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Calculator">
+        <div class="display" id="display"></div>
+        <div class="buttons">
+            <button class="button buttonclear">C</button>
+            <button class="button buttonbackspace"><-</button>
+            <button class="button buttonslash">/</button>
+            <button class="button buttonstar">*</button>
+
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">-</button>
+
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button buttonplus">+</button>
+
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button"></button>
+
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button buttonequal">=</button>
+
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -10,12 +10,14 @@
             font: lighter ;
             margin-left: 75px;
             font-size: 30px;
-            padding: 10px;
+            padding: 5px;
             font-family: Arial, Helvetica, sans-serif;
             background-color: rgb(114, 171, 131);
+            padding-right: 120px;
         }
         .main{
             display: flex;
+            justify-content: space-between;
             background-color: rgb(114, 171, 131);
         }
         .explore{
@@ -32,16 +34,17 @@
             border: none;  
             font-size: 20px;
             width: 100px;
-            height: 10px;
-            margin-left: 700px;
+            height: 10px;  
+            /* margin-left: 800px; */
+            
         }
         .buttons{
-            
-
+            /* margin-left: 850px; */
+            display: flex;
         }
         .main1{
             display: flex;
-            height: 300px
+            height: 500px;
         }
         .head2{
             width:50%;
@@ -57,27 +60,29 @@
             text-align: center;
         }
         .image{
-            margin-left: 25%;
+            margin-left: 60px;
             width: 300px;    
         }
         .main3{
             display: flex;
-            gap: 50px;
-            align-items: center;
         }
         .subhead{
             margin-left: 900px;
         }
+        .main4{
+            display: flex;
+        }
         .boxes{
             text-align: center;
             padding: 10px;
+            
         }
         .box{
-            width: 800px;
+            width: 400px;
             box-shadow: black 0px 8px 24px;
             margin-left: 14px;
             margin-top: 30px;
-            border-radius: 5%;
+            border-radius: 5%;   
         }
         .sign{
             text-align: center;
@@ -106,74 +111,80 @@
             height: 25px;
             border-radius: 20px;
         }
+        .head4{
+            text-align: center;
+            padding: 10px;
+        }
         
     </style>
 </head>
 <body>
     <div class="main">
-        <div>
-         <h1 class=" head1">Landing page</h1>
-        </div>
-        <div clas="buttons">
-        <button class="button">Home</button>
-        <button class="button">About</button>
-        <button class="button">Signup</button>
-        </div>
+            <div>
+               <h1 class=" head1">Landing page</h1>
+            </div>
+            <div clas="buttons">
+               <button class="button">Home</button>
+               <button class="button">About</button>
+               <button class="button">Signup</button>
+            </div>
     </div>
     <div class="main1">
-        <div class="head2">
-        <h1 style="color: darkgreen;">Discover The World of Barbie</h1>
-        <button class="explore">Explore More</button>
-        </div>
-        <div class="image">
-            <img src="../images.jpg" alt=" barbie" class="image">
+            <div class="head2">
+                <h1 style="color: darkgreen;">Discover The World of Barbie</h1>
+                <button class="explore">Explore More</button>
+            </div>
+            <div class="image">
+                 <img src="../images.jpg" alt=" barbie" class="image">
+            </div>
+    </div>        
+            <div >
+                <h1 class="head3">Barbie</h1>
+            </div>
+    <div class="main3">
+            <div class="box">
+                <h1 class="boxes">DSA</h1>
+                <p class="boxes">The team DSA stands for data structures and algorithms.As the name itself suggests its a combination of two seperate yet interepted topics.</p>
+            </div>
+            <div class="box">
+                <h1 class="boxes">HTML</h1>
+                <p class="boxes">HTML Stands for HyperText Markup Language.It is used to Design web pages using the markup Language</p>
+            </div>
+            <div class="box">
+                <h1 class="boxes">Javasript</h1>
+                <p class="boxes">Javasript (JS) is the most popular lightweight,interepted compiled programing Language</p>
+            </div>
      </div>
-     <div >
-        <h1 class="head3">Barbie</h1>
-     </div>
-     <div class="main3">
-        <div class="box">
-            <h1 class="boxes">DSA</h1>
-            <p class="boxes">The team DSA stands for data structures and algorithams.As the name itself suggests its a compination of two seperate yet interepted topics.</p>
-        </div>
-        <div class="box">
-            <h1 class="boxes">HTML</h1>
-            <p class="boxes">HTML Stands for HyperText Markup Language.It is used to Design web pages using the markup Language</p>
-         </div>
-         <div class="box">
-            <h1 class="boxes">Javasript</h1>
-            <p class="boxes">Javasript (JS) is the most popular lightweight,interepted compiled programing Language</p>
-         </div>
-         <div >
-            <h1 class="head4">Sign up</h1>
-         </div>
-         <div class="main4">
-            <div class="forms"></div>
-            <form action="site1.html" class="form">
-            <div class="form1">
-                <label for="yourname" style="margin-bottom: 10px;">Your Name</label>
-                <input type="text" id="Name" placeholder="Enter Your Name" class="input"  style="margin-bottom: 10px;">
+            <div >
+                <h1 class="head4">Sign up</h1>
             </div>
-            <div class="form2">
-                <label for="Email" style="margin-bottom: 10px;">Your Email</label>
-                <input type="text" id="Mail" placeholder="Enter Your Email" class="input" style="margin-bottom: 10px;">
-            </div>
-            <div class="form3">
-                <label for="Password" style="margin-bottom: 10px;">Your Password</label>
-                <input type="password" id="Password" placeholder="Enter Your Password" class="input">
-            </div>
+        <div class="main4">
+            <div class="forms">
+              <form action="site1.html" class="form">
+                <div class="form1">
+                     <label for="yourname" style="margin-bottom: 10px;">Your Name</label>
+                     <input type="text" id="Name" placeholder="Enter Your Name" class="input"  style="margin-bottom: 10px;">
+                </div>
+                <div class="form2">
+                    <label for="Email" style="margin-bottom: 10px;">Your Email</label>
+                    <input type="text" id="Mail" placeholder="Enter Your Email" class="input" style="margin-bottom: 10px;">
+                </div>
+                <div class="form3">
+                    <label for="Password" style="margin-bottom: 10px;">Your Password</label>
+                    <input type="password" id="Password" placeholder="Enter Your Password" class="input">
+                </div>
                
-            </form>
-            <button class="sign">Signup</button>
-         </div>
-         <div class="contact">
-            <p class="subhead" style="font-weight: bolder;"> Contact us</p>
-            <p class="subhead" style= "color: gray;";>A-143, 9th Floor, Sovereign Corporate Tower, Sector-136, Noida, Uttar Pradesh - 201305</p>
-            <p class="subhead" style="font-weight: bolder;">More Information</p>
-            <p class="subhead" style="color: gray;" >Greetings to all the Geeks out there! We welcome you to the platform where we consistently strive to offer the best of education. This platform has been designed for every geek wishing to expand their knowledge, share their knowledge and is ready to grab their dream job. We have millions of articles, live as well as online courses, thousands of tutorials and much more just for the geek inside you. Thank you for choosing and supporting us!</p>
-         </div>
+              </form>
+                 <button style="margin-top: 20px; width: 100px; border-radius: 10px; height: 30px; border: none;">Signup</button>
+            </div>
+            <div class="contact">
+                <p class="subhead" style="font-weight: bolder;"> Contact us</p>
+                <p class="subhead" style= "color: gray;";>A-143, 9th Floor, Sovereign Corporate Tower, Sector-136, Noida, Uttar Pradesh - 201305</p>
+                <p class="subhead" style="font-weight: bolder;">More Information</p>
+                <p class="subhead" style="color: gray;" >Greetings to all the Geeks out there! We welcome you to the platform where we consistently strive to offer the best of education. This platform has been designed for every geek wishing to expand their knowledge, share their knowledge and is ready to grab their dream job. We have millions of articles, live as well as online courses, thousands of tutorials and much more just for the geek inside you. Thank you for choosing and supporting us!</p>
+             </div>
 
 
-    </div>
+        </div>
 </body>
 </html>

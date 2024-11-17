@@ -1,3 +1,4 @@
+
 .head1st{
     background-image: url(images/hero-bg.jpg);
     height: 100%;
@@ -15,11 +16,14 @@
 .subhead{
     margin-left: 20px;
     margin-top: 40px;
+    display: flex;
+    
 
 }
 .subhead1st{
     color: white;
     font-size: 25px;
+    text-decoration: none;
     
 }
 .button{
@@ -84,9 +88,11 @@ padding-left: 550px;
 
 }
 .button21{
-    border-radius: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     height: 50px;
-    width: 150px;
+    width: 200px;
     cursor: pointer;
    
 }
@@ -193,15 +199,21 @@ padding-left: 550px;
     background-color: orange;
     cursor: pointer;
 }
+.page2{
+    display: flex;
+}
 
 .image6{
-    margin-left: 100px;
+    padding-left: 80px;
+    
    
 }
+.page3{
+    padding-left: 70px;
+    padding-top: 90px;
+}
 .text1{
-    padding-left: 600px;
-    margin-top: -400px;
-   
+    
     font-size: 30px;
     font-weight: bolder;
 }
@@ -209,15 +221,15 @@ padding-left: 550px;
     font-weight: lighter;
     font-size: 18px;
    
-    padding-left: 600px;
+    
 }
-.pagebutton{
-    padding-left: 600px;
-}
+
 .button31{
     height: 45px;
     width: 150px;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
     font-size: 20px;
     background: black;
     color: white;
@@ -228,7 +240,7 @@ padding-left: 550px;
 }
 .head3rd{
     padding-left: 50px;
-    padding-top: 230px;
+    padding-top: 30px;
 }
 .subhd1{
     font-weight: bolder;
@@ -238,11 +250,13 @@ padding-left: 550px;
     padding-left: 50px;
 }
 .img7{
-    padding-top: 40px;
+   /* padding-top: 40px;*/
+   display: flex;
+   justify-content: center;
 }
 .image7{
     height: 650px;
-    padding-left: 35px;
+  /*  padding-left: 35px;*/
 }
 .head4{
     padding-left: 450px;
@@ -324,7 +338,213 @@ padding-left: 550px;
     margin-top: 30px;
 }
 .buttonscir{
-   
+    
+    /* justify-content: center; */
+    text-align: center;
     padding-top: 30px;
 }
+.buttons12{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.buttons21{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.page5{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    background-image: url(images/target-bg.jpg);
+    margin-top: 50px; 
+    height: 250px;
+}
+.bkimg1{
+    
+    color: white;
+   text-align: center;
+   font-size: 25px;
+   padding-top: 40px;
+   font-weight: bolder;
+}
+.bkimg2{
+    color: white;
+   text-align: center;
+   font-size: 25px;
+   padding-top: 40px;
+   font-weight: bolder;
 
+}
+.bkimg3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+.bkimg4{
+    color: white;
+   text-align: center;
+   font-size: 25px;
+   padding-top: 40px;
+   font-weight: bolder;
+}
+.head7{
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+.formi{
+    text-align: center;
+}
+
+.form1{
+    height: 40px;
+    color: gray;
+    font-size: 15px;
+ width: 900px;   
+ margin-top: 30px;
+ border-radius: 30px;
+ border-width: 1px;
+ border-color: gray;
+ 
+ 
+}
+.form2{
+    height: 40px;
+    color: gray;
+    font-size: 15px;
+  margin-top: 30px;
+ width: 900px;   
+ margin-top: 30px;
+ border-radius: 30px;
+ border-width: 1px;
+ border-color: gray;
+ 
+}
+.form3{
+    height: 40px;
+    color: gray;
+    font-size: 15px;
+margin-top: 30px;  
+ width: 900px;   
+ margin-top: 30px;
+ border-radius: 30px;
+ border-width: 1px;
+ border-color: gray;
+}
+.form4{
+    height: 150px;
+    color: gray;
+    font-size: 15px;
+width: 900px;   
+ margin-top: 30px;
+ border-radius: 30px;
+ border-width: 1px;
+ border-color: gray;
+}
+.buttonsen{
+    text-align: center;
+
+}
+.butsen{
+    background-color: rgb(236, 165, 52);
+    height: 50px;
+   margin-top: 50px;
+   width: 150px;
+   border-radius: 30px;
+   color: white;
+   border: none;
+}
+.image14{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+  
+}
+.imagi14{
+   justify-content: center;
+}
+.last{
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+   /* display: flex;*/
+}
+.lasthd{
+    color: white;
+    display: flex;
+    gap: 200px;
+    padding-top: 50px;
+    font-weight: lighter;
+    justify-content: center;
+}
+.last2{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+}
+.imgwrit{
+    color: white;
+    font-size: 20px;
+}
+.imgi{
+    width: 13px;
+    padding-left: 100px;
+}
+.last2write{
+    display: flex;
+    color: white;
+   padding-left: 400px;
+   padding-right: 600px;
+   margin-top: -160px;
+
+}
+.instimg{
+    padding-left: 730px;
+    margin-top: -100px;
+    cursor: pointer;
+}
+.formo{
+    padding-left: 1000px;
+    margin-top: -150px;
+}
+.lstbutn{
+    width: 130px;
+    height: 35px;
+    background-color: rgb(241, 166, 28);
+    color: white;
+    border: none;
+   margin-top: 20px;
+
+}
+.maili{
+    width: 200px;
+    height: 35px;
+
+}
+.logo{
+    padding-top: 30px;
+    
+}
+.lstimgi{
+    gap: 30px;
+    cursor: pointer;
+
+}
+.lstline{
+    background-color: rgb(0, 0, 0);
+    
+   align-items: center;
+}

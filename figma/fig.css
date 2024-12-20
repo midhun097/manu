@@ -219,4 +219,28 @@
         flex-direction: column;
         justify-content: center;
     }
+    .page7 div{
+        flex: 50%;
+
+    }
+    .imagi8{
+        height: 100%;
+    }
   }
+
+  .imagi9{
+    max-width: 100%;
+  }
+  .imagi8{
+    max-width: 100%;
+  }
+ @media screen and (max-width:570px){
+    /* .imagi8{
+        width: 30%;
+
+    }
+    .imagi9{
+        width: 30%;
+
+    } */
+ }
